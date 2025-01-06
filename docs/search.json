@@ -18,34 +18,41 @@
     "href": "documentation/index.html",
     "title": "Documentation",
     "section": "",
-    "text": "Title\n\n\n\n\n\n\nProjects overview\n\n\n\n\nData processing\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nProjects overview\n\n\nProject 1 and 2, learning objectives \n\n\n\n\nData processing\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "documentation/1_project_overview.html",
     "href": "documentation/1_project_overview.html",
     "title": "Projects overview",
     "section": "",
-    "text": "The overall motivations are such that the following skills are developed and demonstrated:\n\nDatabase: SQL and BigQuery\nCloud: such as GCP, Vertex AI\nData and feature engineering with python\nMachine learning: Tensorflow / Keras, predictive modeling and classification\n\nThere are two"
+    "text": "The overall motivations are such that the following skills are developed and demonstrated:\n\nDatabase: SQL and BigQuery\nCloud: such as GCP, Vertex AI\nData and feature engineering with python\nMachine learning: Tensorflow / Keras, predictive modeling and classification\nHardware: CPU, GPU and beyond (TPU)\n\nThere are two planned projects that derive from the MIMIC IV data.\n\nProject 1\nThis is a continuation of ggehr, where the derived data will be used as demonstration for the R package.\nPurpose of this project for myself:\n\ntechnical skills: SQL\nfamiliarity of MIMIC IV data, understand which tables are relevant and lead to the next project\n\n\n\n\n\n\n\nSkills to demonstrate\n\n\n\n\nSQL and BigQuery\nGoogle Cloud + Gemini\nVisualization with ggplot2\nR package development and testing\n\n\n\n\nImpact\n\n\n\n\n\n\nTip\n\n\n\nCheck the relevant areas to demonstrate, such as visualization, patient insight …\n\n\n\n\nEnd products\n\nan abstract for talk at ISCB46 in Basel (due 2.14)\nR package ggehr accepted in CRAN\n\n\n\n\nProject 2\nThis is a project to practice programming and statistical skills using healthcare data. This can be considered as a project extension for Paper 1 in my PhD, but less focus on model performance, more on the interview preparation.\nPurpose of this project for myself:\n\ntechnical skills: SQL, python, ML\n\n\nImpact\n\n\n\n\n\n\nTip\n\n\n\n\nThe endpoint selection will be important if want to demonstrate the usefulness of the ML models\nPredictive modeling\npatient segregation?\n\n\n\n\n\n\n\n\n\nSkills demonstrated\n\n\n\n\npython\nfeature engineering\ntensorflow / keras\npredictive modeling / classification\ntest out BigQueryML / autoML, vertex AI\ntest out different hardware on Google Cloud"
   },
   {
     "objectID": "documentation/1_project_overview.html#motivation",
     "href": "documentation/1_project_overview.html#motivation",
     "title": "Projects overview",
     "section": "",
-    "text": "The overall motivations are such that the following skills are developed and demonstrated:\n\nDatabase: SQL and BigQuery\nCloud: such as GCP, Vertex AI\nData and feature engineering with python\nMachine learning: Tensorflow / Keras, predictive modeling and classification\n\nThere are two"
+    "text": "The overall motivations are such that the following skills are developed and demonstrated:\n\nDatabase: SQL and BigQuery\nCloud: such as GCP, Vertex AI\nData and feature engineering with python\nMachine learning: Tensorflow / Keras, predictive modeling and classification\n\nThere are two planned projects that derive from the MIMIC IV data."
   },
   {
     "objectID": "documentation/1_project_overview.html#project-1",
     "href": "documentation/1_project_overview.html#project-1",
     "title": "Projects overview",
     "section": "Project 1",
-    "text": "Project 1"
+    "text": "Project 1\nThis is a continuation of ggehr, where the derived data will be used as demonstration for the R package.\n\n\n\n\n\n\nSkills to demonstrate\n\n\n\nVertex AI, Gemini multimodal, autoML, BigQuery ML\n\n\n\nImpact\n\n\nEnd product"
   },
   {
     "objectID": "documentation/1_project_overview.html#project-2",
     "href": "documentation/1_project_overview.html#project-2",
     "title": "Projects overview",
     "section": "Project 2",
-    "text": "Project 2"
+    "text": "Project 2\n\n\n\n\n\n\nSkills demonstrated\n\n\n\nVertex AI, Gemini multimodal, autoML, BigQuery ML"
+  },
+  {
+    "objectID": "log.html",
+    "href": "log.html",
+    "title": "Log",
+    "section": "",
+    "text": "Priority\n\npractice BigQuery, produce demo dataset for ggehr\nunderstand the database a bit better, understand which variables are useful\n\n\n\nProgress log\n\n\n\n\n\n\n\n\nStage\nTasks\nProgress\n\n\n\n\nPlanning\nAcquire access to MIMIC IV data\nDone\n\n\n\nLearn how to use BigQuery\nDone\n\n\n\nLearn BigQuery API to Rstudio locally, set up authentication\nDone\n\n\n\nProduce the documentation for project proposal\nDone\n\n\nData extraction\nRead the documentation for MIMIC IV, understand which ones are important\n\n\n\n\nPractice SQL on MIMIC IV data\n\n\n\n\n\n\n\n\nData exploration"
   }
 ]

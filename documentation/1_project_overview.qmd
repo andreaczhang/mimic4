@@ -1,7 +1,7 @@
 ---
 title: "Projects overview"
 description: |
-  
+  Project 1 and 2, learning objectives
 #author: "Chi Zhang"
 #date: "2025-01-05"
 #categories: []
@@ -18,28 +18,90 @@ format:
 ---
 
 
-## Motivation 
-
 The overall motivations are such that the following skills are developed and demonstrated:
 
-* Database: SQL and BigQuery
-* Cloud: such as GCP, Vertex AI
-* Data and feature engineering with python
-* Machine learning: Tensorflow / Keras, predictive modeling and classification
+* Database: **SQL and BigQuery**
+* **Cloud**: such as GCP, Vertex AI
+* Data and **feature engineering** with **python**
+* Machine learning: **Tensorflow / Keras**, predictive modeling and classification
+* Hardware: CPU, GPU and beyond (TPU)
 
 
 There are two planned projects that derive from the MIMIC IV data.
 
 
-## Project 1
+# Project 1
+
+This is a continuation of [ggehr](https://github.com/andreaczhang/ggehr), where the derived data will be used as demonstration for the R package. 
+
+Purpose of this project for myself:
+
+* technical skills: SQL
+* familiarity of MIMIC IV data, understand which tables are relevant and lead to the next project
 
 
 
+::: {.callout-note}
+## Skills to demonstrate
+
+* SQL and BigQuery
+* Google Cloud + Gemini
+* Visualization with `ggplot2`
+* R package development and testing
+
+:::
 
 
-## Project 2
+### Impact
+
+::: {.callout-tip}
+
+Check the relevant areas to demonstrate, such as **visualization, patient insight** ...
+
+:::
 
 
+
+### End products
+
+- [ ] an abstract for talk at ISCB46 in Basel (due 2.14)
+- [ ] R package `ggehr` accepted in CRAN
+
+
+# Project 2
+
+This is a project to practice programming and statistical skills using healthcare data. This can be considered as a project extension for Paper 1 in my PhD, but less focus on model performance, more on the interview preparation.
+
+
+Purpose of this project for myself:
+
+* technical skills: SQL, python, ML
+
+
+### Impact
+
+
+::: {.callout-tip}
+
+* The endpoint selection will be important if want to demonstrate the usefulness of the ML models
+* Predictive modeling
+* patient segregation?
+
+:::
+
+
+
+::: {.callout-note}
+## Skills demonstrated
+
+* python
+* feature engineering
+* tensorflow / keras
+* predictive modeling / classification
+* test out BigQueryML / autoML, vertex AI
+* test out different hardware on Google Cloud
+
+:::
 
 
 

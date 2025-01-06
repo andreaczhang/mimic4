@@ -1,0 +1,52 @@
+---
+title: "Log"
+description: |
+  
+#author: "Chi Zhang"
+#date: "2025-01-05"
+#categories: []
+sidebar: false
+code-block-bg: false
+code-block-border-left: true
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    code-tools: false
+    highlight-style: gruvbox
+---
+
+### Priority
+
+* practice BigQuery, produce demo dataset for `ggehr`
+* understand the database a bit better, understand which variables are useful
+
+
+### Progress log
+
+|Stage |Tasks |Progress |
+|--|-----|--|
+|Planning |Acquire access to MIMIC IV data |Done |
+|  |Learn how to use BigQuery |Done |
+|  |Learn BigQuery API to Rstudio locally, set up authentication |Done |
+| | Produce the documentation for project proposal| Done |
+| Data extraction | Read the documentation for MIMIC IV, understand which ones are important | |
+| | Practice SQL on MIMIC IV data | |
+| | | |
+| Data exploration | | |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

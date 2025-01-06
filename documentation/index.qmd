@@ -2,7 +2,7 @@
 title: "Documentation"
 listing:
   - id: projects
-    fields: [title]
+    fields: [title, description]
     contents: 
       - "1_project_overview.qmd"
       - "2_data_process_1.qmd"
@@ -25,3 +25,13 @@ listing:
 
 ::: {#projects}
 :::
+
+
+
+
+
+
+
+
+
+

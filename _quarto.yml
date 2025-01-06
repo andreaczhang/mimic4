@@ -14,6 +14,8 @@ website:
       - href: documentation/index.qmd
         text: Documentation
 
+      - href: log.qmd
+        text: Log
 
     right: 
       - icon: github
@@ -21,7 +23,7 @@ website:
         
 format:
   html:
-    theme: lux
+    theme: flatly
     # css: styles.css
     toc: true
 
