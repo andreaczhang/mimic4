@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "MIMIC 4"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+      - href: documentation/index.qmd
+        text: Documentation
+
+
+    right: 
+      - icon: github
+        href: https://github.com/andreaczhang/mimic4
+        
+format:
+  html:
+    theme: lux
+    # css: styles.css
+    toc: true
+

@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MIMIC 4",
+    "section": "",
+    "text": "Github\n  \n\n  \n  \nThis is the documentation website for MIMIC4 project.\nMIMIC4 is based on the PhysioNet MIMIC IV database, which is openly accessible however require credentials. Please refer to the official guide for how to acquire the correct access.\nThis documentation is for personal use and going through active development, so please use with caution. Feedback can be made by either creating an issue or reaching out to me directly."
+  },
+  {
+    "objectID": "doc.html",
+    "href": "doc.html",
+    "title": "MIMIC 4",
+    "section": "",
+    "text": "Information for MIMIC IV here\n\nModules: hosp and icu (metavision)\n\nhosp\n546.028 stays, 223.452 unique individuals\nalso has intra-hospital transfers\nDe-identification: date shifting, done independently for each patient\n\n\nicu (not now)\n94.458 stays"
+  },
+  {
+    "objectID": "documentation/index.html",
+    "href": "documentation/index.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Title\n\n\n\n\n\n\nProjects overview\n\n\n\n\nData processing\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "documentation/1_project_overview.html",
+    "href": "documentation/1_project_overview.html",
+    "title": "Projects overview",
+    "section": "",
+    "text": "The overall motivations are such that the following skills are developed and demonstrated:\n\nDatabase: SQL and BigQuery\nCloud: such as GCP, Vertex AI\nData and feature engineering with python\nMachine learning: Tensorflow / Keras, predictive modeling and classification\n\nThere are two"
+  },
+  {
+    "objectID": "documentation/1_project_overview.html#motivation",
+    "href": "documentation/1_project_overview.html#motivation",
+    "title": "Projects overview",
+    "section": "",
+    "text": "The overall motivations are such that the following skills are developed and demonstrated:\n\nDatabase: SQL and BigQuery\nCloud: such as GCP, Vertex AI\nData and feature engineering with python\nMachine learning: Tensorflow / Keras, predictive modeling and classification\n\nThere are two"
+  },
+  {
+    "objectID": "documentation/1_project_overview.html#project-1",
+    "href": "documentation/1_project_overview.html#project-1",
+    "title": "Projects overview",
+    "section": "Project 1",
+    "text": "Project 1"
+  },
+  {
+    "objectID": "documentation/1_project_overview.html#project-2",
+    "href": "documentation/1_project_overview.html#project-2",
+    "title": "Projects overview",
+    "section": "Project 2",
+    "text": "Project 2"
+  }
+]

@@ -1,0 +1,48 @@
+---
+title: "Projects overview"
+description: |
+  
+#author: "Chi Zhang"
+#date: "2025-01-05"
+#categories: []
+sidebar: false
+code-block-bg: false
+code-block-border-left: true
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    code-tools: false
+    highlight-style: gruvbox
+---
+
+
+## Motivation 
+
+The overall motivations are such that the following skills are developed and demonstrated:
+
+* Database: SQL and BigQuery
+* Cloud: such as GCP, Vertex AI
+* Data and feature engineering with python
+* Machine learning: Tensorflow / Keras, predictive modeling and classification
+
+
+There are two planned projects that derive from the MIMIC IV data.
+
+
+## Project 1
+
+
+
+
+
+## Project 2
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+---
+title: "MIMIC 4"
+#image: misc/logo_dan.png
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/andreaczhang/mimic4
+---
+
+::: {#hero-heading}
+
+This is the documentation website for MIMIC4 project. 
+
+MIMIC4 is based on the [PhysioNet MIMIC IV database](https://physionet.org/content/mimiciv/3.1/), which is openly accessible however require credentials. Please refer to the official guide for how to acquire the correct access. 
+
+This documentation is for *personal use and going through active development*, so please use with caution. Feedback can be made by either [creating an issue](https://github.com/andreaczhang/mimic4/issues) or  [reaching out to me directly](https://github.com/andreaczhang). 
+
+:::
