@@ -17,3 +17,29 @@ format:
     highlight-style: gruvbox
 ---
 
+
+> Understand which tables and variables are relevant 
+
+To reproduce the **demo** cohort, can use the `subject_id` from [MIMIC-IV Clinical Database Demo](https://physionet.org/content/mimic-iv-demo/2.2/#files-panel).
+
+Note the following tables are from `mimiciv_3_1_hosp`.
+
+|Index |Table | Relevant Columns| Maybe|
+|:-:|:--:|:----:|:-:| 
+|1 | [admissions](https://mimic.mit.edu/docs/iv/modules/hosp/admissions/) | subject_id, <br/> admittime, <br/> dischtime, deathtime, <br/> admission_type| hadm_id | 
+|2 | [patients](https://mimic.mit.edu/docs/iv/modules/hosp/patients/)| subject_id, <br/> gender | |
+
+
+### Details after exploration
+
+#### 1. admissions
+
+* `admission_type`: 9 in total, 
+
+
+
+
+
+
+
+

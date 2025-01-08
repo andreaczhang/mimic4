@@ -54,5 +54,12 @@
     "title": "Log",
     "section": "",
     "text": "Priority\n\npractice BigQuery, produce demo dataset for ggehr\nunderstand the database a bit better, understand which variables are useful\n\n\n\nProgress log\n\n\n\n\n\n\n\n\nStage\nTasks\nProgress\n\n\n\n\nPlanning\nAcquire access to MIMIC IV data\nDone\n\n\n\nLearn how to use BigQuery\nDone\n\n\n\nLearn BigQuery API to Rstudio locally, set up authentication\nDone\n\n\n\nProduce the documentation for project proposal\nDone\n\n\nData extraction\nRead the documentation for MIMIC IV, understand which ones are important\n\n\n\n\nPractice SQL on MIMIC IV data\n\n\n\n\n\n\n\n\nData exploration"
+  },
+  {
+    "objectID": "documentation/2_data_process_1.html",
+    "href": "documentation/2_data_process_1.html",
+    "title": "Data processing",
+    "section": "",
+    "text": "Understand which tables and variables are relevant\n\nTo reproduce the demo cohort, can use the subject_id from MIMIC-IV Clinical Database Demo.\nNote the following tables are from mimiciv_3_1_hosp.\n\n\n\nIndex\nTable\nRelevant Columns\nMaybe\n\n\n\n\n1\nadmissions\nsubject_id,  admittime,  dischtime, deathtime,  admission_type\nhadm_id\n\n\n2\npatients\nsubject_id,  gender\n\n\n\n\n\nDetails after exploration\n\n1. admissions\n\nadmission_type: 9 in total,"
   }
 ]

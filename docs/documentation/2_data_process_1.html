@@ -95,6 +95,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../documentation/index.html"> 
 <span class="menu-text">Documentation</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../log.html"> 
+<span class="menu-text">Log</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -114,7 +118,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#details-after-exploration" id="toc-details-after-exploration" class="nav-link active" data-scroll-target="#details-after-exploration">Details after exploration</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -138,8 +148,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<blockquote class="blockquote">
+<p>Understand which tables and variables are relevant</p>
+</blockquote>
+<p>To reproduce the <strong>demo</strong> cohort, can use the <code>subject_id</code> from <a href="https://physionet.org/content/mimic-iv-demo/2.2/#files-panel">MIMIC-IV Clinical Database Demo</a>.</p>
+<p>Note the following tables are from <code>mimiciv_3_1_hosp</code>.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Index</th>
+<th style="text-align: center;">Table</th>
+<th style="text-align: center;">Relevant Columns</th>
+<th style="text-align: center;">Maybe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><a href="https://mimic.mit.edu/docs/iv/modules/hosp/admissions/">admissions</a></td>
+<td style="text-align: center;">subject_id, <br> admittime, <br> dischtime, deathtime, <br> admission_type</td>
+<td style="text-align: center;">hadm_id</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"><a href="https://mimic.mit.edu/docs/iv/modules/hosp/patients/">patients</a></td>
+<td style="text-align: center;">subject_id, <br> gender</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<section id="details-after-exploration" class="level3">
+<h3 class="anchored" data-anchor-id="details-after-exploration">Details after exploration</h3>
+<section id="admissions" class="level4">
+<h4 class="anchored" data-anchor-id="admissions">1. admissions</h4>
+<ul>
+<li><code>admission_type</code>: 9 in total,</li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
