@@ -24,10 +24,20 @@ To reproduce the **demo** cohort, can use the `subject_id` from [MIMIC-IV Clinic
 
 Note the following tables are from `mimiciv_3_1_hosp`.
 
-|Index |Table | Relevant Columns| Maybe|
+|Index |Table | Relevant Columns| Notes|
 |:-:|:--:|:----:|:-:| 
-|1 | [admissions](https://mimic.mit.edu/docs/iv/modules/hosp/admissions/) | subject_id, <br/> admittime, <br/> dischtime, deathtime, <br/> admission_type| hadm_id | 
-|2 | [patients](https://mimic.mit.edu/docs/iv/modules/hosp/patients/)| subject_id, <br/> gender | |
+|1 | [admissions](https://mimic.mit.edu/docs/iv/modules/hosp/admissions/) | subject_id, hadm_id <br/> admittime, dischtime, deathtime, <br/> admission_type| | 
+|2 | [patients](https://mimic.mit.edu/docs/iv/modules/hosp/patients/)| subject_id, <br/> gender, <br/> age <br/> dod | |
+|3 | [pharmacy](https://mimic.mit.edu/docs/iv/modules/hosp/pharmacy/)| subject_id, hadm_id, <br/> starttime, stoptime <br/> medication <br/> proc_type <br/> status <br/> entertime, verifiedtime <br/> route <br/> frequency <br/> duration, duration_interval| |
+|4 | [prescriptions](https://mimic.mit.edu/docs/iv/modules/hosp/prescriptions/)|  | (later) |
+|5 | [transfers](https://mimic.mit.edu/docs/iv/modules/hosp/transfers/)| subject_id, hadm_id <br/> eventtype, <br/> careunit <br/> intime, outtime | |
+
+
+Meta data
+
+|Index |Table | Relevant Columns| |
+|:-:|:--:|:----:|:-:| 
+|1 | [d_icd_diagnoses](https://mimic.mit.edu/docs/iv/modules/hosp/d_icd_diagnoses/)|  | |
 
 
 ### Details after exploration

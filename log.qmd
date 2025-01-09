@@ -23,7 +23,7 @@ format:
 * understand the database a bit better, understand which variables are useful
 
 
-### Progress log
+## Progress log
 
 |Stage |Tasks |Progress |
 |--|-----|--|
@@ -31,12 +31,33 @@ format:
 |  |Learn how to use BigQuery |Done |
 |  |Learn BigQuery API to Rstudio locally, set up authentication |Done |
 | | Produce the documentation for project proposal| Done |
-| Data extraction | Read the documentation for MIMIC IV, understand which ones are important | |
-| | Practice SQL on MIMIC IV data | |
-| | | |
-| Data exploration | | |
+| Data extraction | Read the documentation for MIMIC IV, understand which ones are relevant | Done |
+| | Extract data for selected demo cohort (N=100) | Done|
+| | Document the BQ process |  |
+
+### `ggehr`
 
 
+|Stage |Tasks |Progress |
+|--|-----|--|
+| Initial cleaning | | |
+| Adapt existing functions | | |
+| Improve documentation: functions | | |
+| Tests | | |
+| CRAN | Checklist | |
+
+
+### Promotion 
+
+|Stage |Tasks |Progress |
+|--|-----|--|
+| ISCB46 Basel | | |
+| R in Medicine | | |
+
+
+
+
+### ML mini project (after training)
 
 
 

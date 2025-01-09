@@ -159,20 +159,57 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">Index</th>
 <th style="text-align: center;">Table</th>
 <th style="text-align: center;">Relevant Columns</th>
-<th style="text-align: center;">Maybe</th>
+<th style="text-align: center;">Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">1</td>
 <td style="text-align: center;"><a href="https://mimic.mit.edu/docs/iv/modules/hosp/admissions/">admissions</a></td>
-<td style="text-align: center;">subject_id, <br> admittime, <br> dischtime, deathtime, <br> admission_type</td>
-<td style="text-align: center;">hadm_id</td>
+<td style="text-align: center;">subject_id, hadm_id <br> admittime, dischtime, deathtime, <br> admission_type</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td style="text-align: center;"><a href="https://mimic.mit.edu/docs/iv/modules/hosp/patients/">patients</a></td>
-<td style="text-align: center;">subject_id, <br> gender</td>
+<td style="text-align: center;">subject_id, <br> gender, <br> age <br> dod</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"><a href="https://mimic.mit.edu/docs/iv/modules/hosp/pharmacy/">pharmacy</a></td>
+<td style="text-align: center;">subject_id, hadm_id, <br> starttime, stoptime <br> medication <br> proc_type <br> status <br> entertime, verifiedtime <br> route <br> frequency <br> duration, duration_interval</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"><a href="https://mimic.mit.edu/docs/iv/modules/hosp/prescriptions/">prescriptions</a></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">(later)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><a href="https://mimic.mit.edu/docs/iv/modules/hosp/transfers/">transfers</a></td>
+<td style="text-align: center;">subject_id, hadm_id <br> eventtype, <br> careunit <br> intime, outtime</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p>Meta data</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Index</th>
+<th style="text-align: center;">Table</th>
+<th style="text-align: center;">Relevant Columns</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;"><a href="https://mimic.mit.edu/docs/iv/modules/hosp/d_icd_diagnoses/">d_icd_diagnoses</a></td>
+<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
 </tbody>
