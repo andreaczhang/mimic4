@@ -1,0 +1,44 @@
+---
+title: "Data on Big Query"
+description: |
+  How to work with data in Big Query
+#author: "Chi Zhang"
+#date: "2025-01-05"
+#categories: []
+sidebar: false
+code-block-bg: false
+code-block-border-left: true
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    code-tools: false
+    highlight-style: gruvbox
+---
+
+
+
+The entire database is quite large, and we only want to work with selected subjects. This would require us to use a pre-specified ID list.
+
+To do this, need to upload the ID list in `csv`. But you need to first **create dataset** in the project before any uploads: our ID list will be a **table** inside a dataset. 
+
+![](figs/bq-1.png){width=60%}
+
+![](figs/bq-2.png){width=60%}
+
+![](figs/bq-3.png){width=60%}
+
+
+Now upload the `subject_id.csv` in the `mimic4` dataset.
+
+![](figs/bq-4.png){width=80%}
+
+Check if it has worked by creating a query on your newly updated table.
+
+![](figs/bq-5.png){width=60%}
+
+Now it should be possible to query the data from `physionet-data.*` datasets. Remember to save the query!!!
+
+![](figs/bq-6.png){width=60%}
+

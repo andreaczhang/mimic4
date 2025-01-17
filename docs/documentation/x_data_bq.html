@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="How to work with data in Big Query">
 
-<title>MIMIC 4 - Documentation</title>
+<title>MIMIC 4 - Data on Big Query</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,65 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -152,7 +93,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../documentation/index.html" aria-current="page"> 
+    <a class="nav-link" href="../documentation/index.html"> 
 <span class="menu-text">Documentation</span></a>
   </li>  
   <li class="nav-item">
@@ -179,15 +120,20 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Documentation</h1>
+<h1 class="title">Data on Big Query</h1>
 </div>
 
+<div>
+  <div class="description">
+    <p>How to work with data in Big Query</p>
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -202,50 +148,17 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-projects" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Description
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1736182814247" data-listing-reading-time-sort="2" data-listing-word-count-sort="250" data-listing-title-sort="Projects overview" data-listing-filename-sort="1_project_overview.qmd">
-<td>
-<a href="../documentation/1_project_overview.html" class="title listing-title">Projects overview</a>
-</td>
-<td>
-<span class="listing-description">Project 1 and 2, learning objectives </span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1736438806095" data-listing-reading-time-sort="1" data-listing-word-count-sort="120" data-listing-title-sort="Data processing" data-listing-filename-sort="2_data_process_1.qmd">
-<td>
-<a href="../documentation/2_data_process_1.html" class="title listing-title">Data processing</a>
-</td>
-<td>
-<span class="listing-description">Understand which tables and variables are relevant</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1737124164568" data-listing-reading-time-sort="1" data-listing-word-count-sort="95" data-listing-title-sort="Data on Big Query" data-listing-filename-sort="x_data_bq.qmd">
-<td>
-<a href="../documentation/x_data_bq.html" class="title listing-title">Data on Big Query</a>
-</td>
-<td>
-<span class="listing-description">How to work with data in Big Query </span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
+<p>The entire database is quite large, and we only want to work with selected subjects. This would require us to use a pre-specified ID list.</p>
+<p>To do this, need to upload the ID list in <code>csv</code>. But you need to first <strong>create dataset</strong> in the project before any uploads: our ID list will be a <strong>table</strong> inside a dataset.</p>
+<p><img src="figs/bq-1.png" class="img-fluid" style="width:60.0%"></p>
+<p><img src="figs/bq-2.png" class="img-fluid" style="width:60.0%"></p>
+<p><img src="figs/bq-3.png" class="img-fluid" style="width:60.0%"></p>
+<p>Now upload the <code>subject_id.csv</code> in the <code>mimic4</code> dataset.</p>
+<p><img src="figs/bq-4.png" class="img-fluid" style="width:80.0%"></p>
+<p>Check if it has worked by creating a query on your newly updated table.</p>
+<p><img src="figs/bq-5.png" class="img-fluid" style="width:60.0%"></p>
+<p>Now it should be possible to query the data from <code>physionet-data.*</code> datasets. Remember to save the query!!!</p>
+<p><img src="figs/bq-6.png" class="img-fluid" style="width:60.0%"></p>
 
 
 
